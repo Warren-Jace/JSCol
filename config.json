@@ -1,0 +1,22 @@
+{
+  "jsfinder": {
+    "Name": "jsfinder",
+    "Path": "tools/jsfinder",
+    "Args": ["-l", "urls.txt", "-c", "50", "-s", "-o", "results/urls-jsfinder.txt"]
+  },
+  "urlfinder": {
+    "Name": "URLFinder",
+    "Path": "tools/URLFinder",
+    "Args": ["-s", "all","-f", "urls.txt", "-m", "3", "-o", "results/URLFinder/"]
+  },
+  "getjs": {
+    "Name": "getJS",
+    "Path": "tools/getJS",
+    "Args": ["-input", "urls.txt", "-complete", "-resolve", "-output", "results/hosts-getJS-results.txt"]
+  },
+  "subjs": {
+    "Name": "subjs",
+    "Path": "tools/subjs",
+    "Args": ["-i", "urls.txt"]
+  }
+}
