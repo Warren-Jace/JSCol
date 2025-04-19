@@ -33,6 +33,7 @@ JSCol 是一个用 Go 开发的命令行工具，支持多线程并发调用多�
 5.  收集结果将保存在各个工具指定的输出文件中，以及日志中。
 
 ## 目录结构
+```bash
 .
 ├── config.json       # 配置文件
 ├── go.mod            # Go Modules 文件
@@ -51,7 +52,6 @@ JSCol 是一个用 Go 开发的命令行工具，支持多线程并发调用多�
 │   └── URLFinder/              # URLFinder 输出目录
 │       └── ...
 ├── tools/            # 工具目录
-│   ├── gau.exe
 │   ├── getJS.exe
 │   ├── jsfinder.exe
 │   ├── subjs.exe
